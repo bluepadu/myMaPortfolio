@@ -8,6 +8,7 @@ import {
   DiMongodb,
   DiPython,
   DiGit,
+  DiAws
 } from "react-icons/di";
 import {
   SiPytorch,
@@ -19,7 +20,7 @@ function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <CgCPlusPlus />
+        <DiReact />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiJavascript1 />
@@ -28,7 +29,7 @@ function Techstack() {
         <DiNodejs />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiReact />
+        <DiAws />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiMongodb />
@@ -48,6 +49,9 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <SiPytorch />
       </Col>
+      {/* <Col xs={4} md={2} className="tech-icons">
+        <CgCPlusPlus />
+      </Col> */}
     </Row>
   );
 }
