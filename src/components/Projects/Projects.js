@@ -8,6 +8,9 @@ import simpletire from "../../Assets/Projects/simpletire.png";
 import equi from "../../Assets/Projects/equi.png";
 import mypackspace from "../../Assets/Projects/mypackspace.png";
 import joinsecret from "../../Assets/Projects/joinsecret.png";
+import jaxbridge from "../../Assets/Projects/jaxbridge.png"
+import slothnft from "../../Assets/Projects/slothnft.png"
+import syspad from "../../Assets/Projects/syspad.png"
 
 function Projects() {
   return (
@@ -84,6 +87,39 @@ function Projects() {
               description="Laravel project deals with clients for cleaning. Built and Maintained for 2 years. Implemented 3 times of frontend design changes."
               ghLink="#"
               demoLink="https://www.gokleen.com.my"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={jaxbridge}
+              isBlog={false}
+              title="JAXBRIDGE"
+              description="Extensive web3 project that is for making bridge between several network centering around JAX network and its token JXN. Built and Maintained for 9 months. Worked on front end development together."
+              ghLink="#"
+              demoLink="https://wrapped.jax.net"
+            />
+          </Col>
+          
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={slothnft}
+              isBlog={false}
+              title="SLOTH NFT"
+              description="NFT project that works on Solana network. Built from scratch including its React frontend combining with marketing setup on youtube and discord. Used metaplex candy machine."
+              ghLink="#"
+              demoLink="https://slothsnft.com"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={syspad}
+              isBlog={false}
+              title="SYSPAD IDO"
+              description="IDO project that provides launch pad on SYSCOIN network. Built for 3 months from scratch including its React frontend and fibase engagement(Bass backend as a service)."
+              ghLink="#"
+              demoLink="https://syspad.io"
             />
           </Col>
         </Row>
