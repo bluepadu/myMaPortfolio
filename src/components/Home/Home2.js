@@ -57,7 +57,7 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/bluepadu"
+                  href="https://github.com/san-blue"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
